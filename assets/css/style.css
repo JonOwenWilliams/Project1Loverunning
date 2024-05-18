@@ -352,6 +352,7 @@ main {
         background-position: center;
         position: relative;
     }
+
     #signup-form {
         max-width: 400px;
         position: absolute;
@@ -411,7 +412,5 @@ main {
     #benefits-physical>div {
         align-self: flex-end;
     }
-
-    /* gallery */
 
 }
