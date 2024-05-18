@@ -114,6 +114,17 @@ main {
     color: #ffffff;
 }
 
+/* Why love running */
+
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#benifits-physical > div {
+    
+}
+
 /* Footer */
 
 #social-networks {
