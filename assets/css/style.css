@@ -30,7 +30,7 @@ h3 {
 .hidden-heading {
     display: none;
 }
-/* Header */
+/* Header ------------------------------------------------------------------------------------------------------------------*/
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -62,7 +62,7 @@ header a {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Nav bar with dropdown toggle */
+/* Nav bar with dropdown toggle -----------------------------------------------------------------------------------------------*/
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -75,7 +75,7 @@ nav {
 }
 
 
-/* Nav Toggle*/
+/* Nav Toggle ---------------------------------------------------------------------------------------------------------*/
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -88,7 +88,7 @@ nav {
     font-size: 2rem;
 }
 
-/* Main Content */
+/* Main Content ------------------------------------------------------------------------------------------------------------*/
 main {
     /* make the main element take up surplus space to push footer to bottom */
     flex: 1 0 auto;
@@ -120,7 +120,7 @@ main {
     color: #ffffff;
 }
 
-/* Why love running */
+/* Why love running ------------------------------------------------------------------------------------------*/
 
 #reasons {
     width: 90%;
@@ -166,7 +166,7 @@ main {
     justify-content: center;
 }
 
-/* Meet up times */
+/* Meet up times ------------------------------------------------------------------------------------------------*/
 
 #times {
     display: flex;
@@ -192,7 +192,17 @@ main {
     color: #fafafa;
 }
 
-/* Footer */
+/* Gallery page ------------------------------------------------------------------------------------------------------------------*/
+
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+/* Footer ------------------------------------------------------------------------------------------------------------------------*/
 
 #social-networks {
     text-align: center;
@@ -208,7 +218,7 @@ main {
     color: #3a3a3a;
 }
 
-/* Media Query: tablets and larger (769 px plus)*/
+/* Media Query: tablets and larger (769 px plus)-------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 768px) {
 
@@ -269,7 +279,7 @@ main {
     }
 }
 
-/* Media query: laptops and bigger */
+/* Media query: laptops and bigger ------------------------------------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
