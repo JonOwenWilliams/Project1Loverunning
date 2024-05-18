@@ -27,6 +27,9 @@ h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
 /* Header */
 header {
     background-color: #ffffff;
@@ -254,12 +257,13 @@ main {
         flex-direction: column;
         width: 100%;
     }
-    #benefits-physical > div,
-    #benefits-mental > div {
+
+    #benefits-physical>div,
+    #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental > div {
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -275,29 +279,30 @@ main {
 
 
 @media screen and (min-width: 1200px) {
-/* Reasons section */
-#benefits {
-    display: flex;
-    flex-direction: row;
-}    
 
-#benefits > div {
-    flex: 1;
-}
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
 
-#benefits-image {
-    order: 0;
-}
+    #benefits>div {
+        flex: 1;
+    }
 
-#benefits-mental {
-    order: 1;
-}
+    #benefits-image {
+        order: 0;
+    }
 
-#benefits-mental > div {
-    align-self: flex-start;
-}
+    #benefits-mental {
+        order: 1;
+    }
 
-#benefits-physical > div {
-    align-self: flex-end;
-}
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
 }
