@@ -414,7 +414,4 @@ main {
 
     /* gallery */
 
-    #photos {
-        column-count: 5;
-    }
 }
